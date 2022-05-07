@@ -237,7 +237,7 @@ body {
   .section-subheading .d-block,
   .form-title .d-block {
     display: inline !important;
-    margin-left: 0.4ch;
+    /* margin-left: 0.4ch; */
   }
 
   .enroll-form {
