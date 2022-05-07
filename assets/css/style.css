@@ -1,0 +1,267 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 6px 47.53px 1.47px rgba(51, 51, 51, 0.1);
+}
+.semly-logo {
+  width: 200px;
+}
+
+.section {
+  padding: 50px 0;
+}
+
+.section-overview {
+  background: url("../img/overview-bg.png") no-repeat right bottom / 70%;
+}
+
+.bold-text {
+  color: #df453d;
+}
+.overview-title {
+  color: #243d5c;
+  font-size: 2.2rem;
+  line-height: 1.4;
+  font-weight: 700;
+}
+.overview-desc {
+  color: #243d5c;
+  font-weight: 400;
+  width: 80%;
+  line-height: 1.8;
+  text-align: left;
+  margin: 10px 0 25px 0;
+  font-size: 1.2rem;
+}
+
+.overview-tiles {
+  width: 82%;
+}
+
+.overview-tile {
+  text-align: center;
+  font-size: 15px;
+}
+
+.tile-img {
+  margin-bottom: 15px;
+}
+
+.tile-title {
+  margin-bottom: 8px;
+  color: #243d5c;
+  font-weight: bold;
+}
+
+.form-title {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  font-weight: bold;
+  color: #243d5c;
+}
+
+.enroll-form {
+  text-align: center;
+  box-shadow: 0px 6px 47.53px 1.47px rgba(51, 51, 51, 0.15);
+  padding: 40px 20px;
+  background: #fff;
+  border-radius: 7px;
+}
+
+/* .enroll-form.form-fixed {
+  position: fixed;
+  left: 57%;
+  right: 10%;
+}
+*/
+.section-overview.with-fixed-form {
+  padding-bottom: 100px;
+}
+
+.enroll-form .form-control {
+  border-radius: 8px;
+  margin: 20px 0;
+  border-color: #666666;
+}
+
+.enroll-form .form-control:focus {
+  box-shadow: none;
+}
+
+.enroll-form .form-control::placeholder {
+  color: #999999;
+  transition: 0.3s;
+}
+
+.enroll-form .form-control:focus::placeholder {
+  opacity: 0;
+}
+
+.text-dark-blue {
+  color: #17283a;
+}
+
+.enroll-price-row {
+  font-size: 1.3rem;
+  margin-top: -15px;
+}
+
+.og-price {
+  text-decoration: line-through;
+  text-decoration-color: #d60027;
+  margin-right: 5px;
+}
+
+.rupee-sign {
+  font-weight: lighter;
+  font-family: auto;
+}
+
+.final-price {
+  color: #c42e38;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.btn.btn-enroll {
+  background: #d60027;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px;
+  transition: background 0.4s;
+}
+
+.btn.btn-enroll:hover {
+  background: #a5011f;
+}
+
+/* section schedule */
+
+.section-subheading {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.4;
+  color: #17283a;
+}
+
+.strong-text {
+  font-weight: bold;
+}
+
+.section-schedule .day {
+  margin: 20px 0 8px 0;
+}
+
+.overview-list-heading {
+  margin: 30px 0;
+  color: #17283a;
+}
+
+.overview-list {
+  padding: inherit;
+  font-size: 0.95rem;
+  color: #17283a;
+  line-height: 1.8rem;
+}
+
+.faq-ques,
+.faq-ans {
+  /* padding: inherit; */
+  font-size: 0.95rem;
+  color: #17283a;
+  line-height: 1.8rem;
+  margin-bottom: 0;
+}
+.faq-ans {
+  list-style: none;
+  width: 550px;
+}
+.course-list {
+  /* padding: inherit; */
+  font-size: 0.95rem;
+  color: #17283a;
+  line-height: 1.8rem;
+  list-style: auto;
+  padding-top: 5px;
+}
+.question-wrapper {
+  margin: 20px 0;
+}
+.section-faq {
+  background: #f0f5ff;
+  padding: 50px 0px;
+}
+.ques-ans-section {
+  padding-bottom: 30px;
+}
+.footer {
+  background: url("../img/footer-bg.png") no-repeat center top / cover;
+  width: 100%;
+  padding: 60px 0 30px 0;
+  margin-top: -35px;
+}
+.footer-logo {
+  text-align: center;
+}
+.footer-logo img {
+  width: 250px;
+}
+.copyright-text {
+  text-align: center;
+  color: #fff;
+  font-size: 13px;
+}
+
+@media (min-width: 992px) {
+  .overview-tiles {
+    margin: 0 -15px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .faq-ans {
+    width: 100%;
+  }
+
+  .overview-desc {
+    width: 100%;
+  }
+
+  .overview-tiles {
+    width: 100%;
+  }
+
+  .section-subheading .d-block,
+  .form-title .d-block {
+    display: inline !important;
+    margin-left: 0.4ch;
+  }
+
+  .enroll-form {
+    padding: 40px 10%;
+  }
+}
+
+@media (max-width: 767px) {
+  .overview-title {
+    font-size: 1.8rem;
+  }
+  .section-subheading {
+    font-size: 1.5rem;
+  }
+
+  .enroll-form {
+    padding: 30px 5%;
+  }
+
+  .form-title {
+    font-size: 1.2rem;
+  }
+
+  .section {
+    padding: 40px 0;
+  }
+}
